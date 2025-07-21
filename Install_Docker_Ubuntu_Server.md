@@ -9,7 +9,7 @@ Dengan Docker, aplikasi bisa berjalan **secara konsisten** di berbagai environme
 ## Kenapa Docker Banyak Digunakan?
 
 - **Ringan:** Tidak butuh OS penuh seperti Virtual Machine
-- **Cepat:** Startup container hanya dalam hitungan detik
+- **Cepat:** Start up container hanya dalam hitungan detik
 - **Portable:** Bisa dijalankan di mana saja selama ada Docker Engine
 - **Konsisten:** Eliminasi "it works on my machine" problem
 - **Automation-friendly:** Cocok banget untuk CI/CD pipeline
@@ -42,7 +42,7 @@ Setiap container:
 
 Docker Compose adalah tools yang membantu kita menjalankan **multi-container application** dengan satu file YAML dan satu perintah.
 
-Contoh: Lo bisa jalankan `nginx`, `php`, `mysql`, `redis` semua sekaligus dengan file `docker-compose.yml`.
+Contoh: kamu bisa jalankan `nginx`, `php`, `mysql`, `redis` semua sekaligus dengan file `docker-compose.yml`.
 
 ---
 
@@ -123,7 +123,7 @@ Mari kita pastikan Docker bisa menjalankan container:
 docker run hello-world
 ```
 
-Kalau instalasi sukses, kamu akan melihat pesan dari Docker yang menyatakan semuanya berjalan lancar.
+Dan setelah itu untuk mengecek apakah container sudah berjalan atau belum kamu bisa ketikan command `docker ps` atau `docker ps -a`.
 
 ---
 
@@ -169,9 +169,9 @@ http://[IP-Server]:8080
 
 ## Referensi & Lanjutan
 
-- [Instalasi Docker di Ubuntu (Resmi)](https://docs.docker.com/engine/install/ubuntu/)
-- [Docker Compose Docs](https://docs.docker.com/compose/)
-- [Contoh Project Docker Compose](https://github.com/docker/awesome-compose)
+- Instalasi Docker di Ubuntu (Resmi): https://docs.docker.com/engine/install/ubuntu/
+- Docker Compose Docs: https://docs.docker.com/compose/
+- Contoh Project Docker Compose: https://github.com/docker/awesome-compose
 
 ---
 
